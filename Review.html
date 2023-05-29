@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Template Mo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>Education - List of Meetings</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+<!--
+
+TemplateMo 569 Edu Meeting
+
+https://templatemo.com/tm-569-edu-meeting
+
+-->
+  </head>
+
+<body>
+
+   
+
+  <!-- Sub Header -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-top-left">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <div class="logo">
+                        <img src="assets/images/Top logo -05.png"> 
+                         </a>
+                        </div>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        
+                        <ul class="nav">
+                            <li><a href="Admin.html">Back</a></li>
+                          </head>
+                          <div class="header-Right">
+                          <h2></h2>
+                          <br>Home Page:<a href="Admin.html" target="_parent" title="website templates">Back</a></p>
+                          </div>
+                       <!--     <li><a href="meetings.html" class="active">Meetings</a></li>
+                            <li><a href="index.html">Apply Now</a></li> 
+                            <li class="has-sub">
+                                <a href="javascript:void(0)">Pages</a>
+                                <ul class="sub-menu">
+                                    <li><a href="meetings.html">Upcoming Meetings</a></li>
+                                    <li><a href="meeting-details.html">Meeting Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="index.html">Courses</a></li> 
+                            <li><a href="index.html">Contact Us</a></li>      -->
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span></span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+  
+    
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'User Gain', 'Expenses'],
+          ['2019',  1000,      400],
+          ['2020',  1170,      460],
+          ['2021',  660,       1120],
+          ['2023',  1030,      540]
+        ]);
+
+        var options = {
+          title: 'Top Bank Performance',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="curve_chart" style="width: 900px; height: 500px"></div>
+</div>
+
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+        var data = new google.visualization.arrayToDataTable([
+          ['Users', 'Access', 'Gain'],
+          ['Client Gain', 8000, 23.3],
+          ['New Admin Join ', 24000, 4.5],
+          ['Client Loan', 30000, 14.3],
+          ['Banker Raise', 50000, 0.9],
+          ['Client and Banker Communication', 60000, 13.1]
+        ]);
+
+        var options = {
+          width: 800,
+          chart: {
+            title: 'Top Bank Overview',
+            subtitle: ''
+          },
+          bars: 'horizontal', // Required for Material Bar Charts.
+          series: {
+            0: { axis: 'distance' }, // Bind series 0 to an axis named 'distance'.
+            1: { axis: 'brightness' } // Bind series 1 to an axis named 'brightness'.
+          },
+          axes: {
+            x: {
+              distance: {label: 'Longetivity'}, // Bottom x-axis.
+              brightness: {side: 'top', label: 'apparent magnitude'} // Top x-axis.
+            }
+          }
+        };
+
+      var chart = new google.charts.Bar(document.getElementById('dual_x_div'));
+      chart.draw(data, options);
+    };
+    </script>
+  </head>
+  <body>
+    <div id="dual_x_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>

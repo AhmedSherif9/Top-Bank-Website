@@ -1,0 +1,24 @@
+.notification {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .fa-bell {
+    font-size: 24px;
+  }
+  
