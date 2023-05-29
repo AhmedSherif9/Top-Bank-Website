@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open BankerInfo.html",
-            "file": "BankerInfo.html"
+            "name": "Open Banker.html",
+            "file": "Banker.html"
         }
     ]
 }
