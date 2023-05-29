@@ -160,7 +160,7 @@ body {
 .main-button-red a {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #222121;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -265,11 +265,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fb5849!important;
+  color: #222121!important;
 }
 
 .background-header .nav li a.active {
-  color: #fb5849!important;
+  color: #222121!important;
 }
 
 .header-area {
@@ -935,7 +935,7 @@ section.upcoming-meetings .categories ul li a {
 }
 
 section.upcoming-meetings .categories ul li a:hover {
-  color: #a12c2f;
+  color: #222121;
 }
 
 section.upcoming-meetings .categories .main-button-red {
@@ -995,7 +995,7 @@ section.upcoming-meetings .categories .main-button-red a {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #a12c2f;
+  color: #222121;
 }
 
 .meeting-item .down-content .date span {
@@ -1148,7 +1148,7 @@ section.our-courses {
 }
 
 .our-courses .item .down-content .info span {
-  color: #a12c2f;
+  color: #222121;
   font-size: 15px;
   font-weight: 600;
   text-align: right;
@@ -1388,7 +1388,7 @@ section.contact-us #contact textarea {
 section.contact-us #contact button {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #222121;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1404,7 +1404,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-  background-color: #a12c2f;
+  background-color: #222121;
   border-radius: 20px;
   padding: 40px;
 }
@@ -1496,7 +1496,7 @@ section.login #log-in textarea {
 section.login #log-in button {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #222121;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1515,7 +1515,7 @@ section.login #log-in button:hover {
 section.login #log-in button2 {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #222121;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1534,7 +1534,7 @@ section.login #log-in button2:hover {
 section.login #log-in button3 {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #222121;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1550,7 +1550,7 @@ section.login #log-in button3:hover {
 }
 
 section.login .right-info {
-  background-color: #a12c2f;
+  background-color: #222121;
   border-radius: 20px;
   padding: 40px;
 }
@@ -1642,7 +1642,7 @@ section.register #register textarea {
 section.register #register button {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #222121;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1658,7 +1658,7 @@ section.register #register button:hover {
 }
 
 section.register .right-info {
-  background-color: #a12c2f;
+  background-color: #222121;
   border-radius: 20px;
   padding: 40px;
 }
@@ -1826,7 +1826,7 @@ section.meetings-page .filters {
 
 section.meetings-page .filters li {
   font-size: 13px;
-  color: #a12c2f;
+  color: #222121;
   background-color: #fff;
   padding: 11px 30px;
   display: inline-block;
@@ -1840,7 +1840,7 @@ section.meetings-page .filters li {
 
 section.meetings-page .filters ul li.active,
 section.meetings-page .filters ul li:hover {
-  background-color: #a12c2f;
+  background-color: #222121;
   color: #fff;
 }
 
@@ -1881,7 +1881,7 @@ section.meetings-page .main-button-red a {
 
 section.meetings-page .pagination ul li.active a,
 section.meetings-page .pagination ul li a:hover {
-  background-color: #a12c2f;
+  background-color: #222121;
   color: #fff;
 }
 
@@ -1932,7 +1932,7 @@ section.meetings-page .pagination ul li a:hover {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #a12c2f;
+  color: #222121;
 }
 
 .meeting-single-item .thumb .date span {
