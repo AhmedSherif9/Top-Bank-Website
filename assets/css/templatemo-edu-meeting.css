@@ -22,7 +22,8 @@ Table of contents
 11. preloader
 12. search
 13. portfolio
-14.register
+14. register
+15. reply
 
 --------------------------------------------- */
 /* 
@@ -1437,6 +1438,7 @@ section.contact-us .right-info ul li span {
 }
 
 
+/* login */
 section.login {
   background-image: url(../images/meetings-bg.jpg);
   background-position: center center;
@@ -1511,44 +1513,6 @@ section.login #log-in button:hover {
   opacity: 0.9;
 }
 
-
-section.login #log-in button2 {
-  font-size: 13px;
-  color: #fff;
-  background-color: #222121;
-  padding: 12px 30px;
-  display: inline-block;
-  border-radius: 22px;
-  font-weight: 500;
-  text-transform: uppercase;
-  transition: all .3s;
-  border: none;
-  outline: none;
-}
-
-section.login #log-in button2:hover {
-  opacity: 0.9;
-}
-
-
-section.login #log-in button3 {
-  font-size: 13px;
-  color: #fff;
-  background-color: #222121;
-  padding: 12px 30px;
-  display: inline-block;
-  border-radius: 22px;
-  font-weight: 500;
-  text-transform: uppercase;
-  transition: all .3s;
-  border: none;
-  outline: none;
-}
-
-section.login #log-in button3:hover {
-  opacity: 0.9;
-}
-
 section.login .right-info {
   background-color: #222121;
   border-radius: 20px;
@@ -1582,6 +1546,7 @@ section.login .right-info ul li span {
   font-weight: 700;
 }
 
+/* register */
 
 section.register {
   background-image: url(../images/meetings-bg.jpg);
@@ -1689,6 +1654,117 @@ section.register .right-info ul li span {
   color: #fff;
   font-weight: 700;
 }
+
+/*reply*/
+
+section.reply {
+  background-image: url(../images/meetings-bg.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 0px 0px 0px;
+}
+
+section.reply #reply-to {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+section.reply #reply-to h2 {
+  text-transform: uppercase;
+  color: #1f272b;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+section.reply #reply-to input {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: #7a7a7a;
+  padding: 0px 15px;
+  margin-bottom: 30px;
+}
+
+section.reply #reply-to textarea {
+  width: 100%;
+  min-height: 140px;
+  max-height: 180px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: #7a7a7a;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+section.reply #reply-to button {
+  font-size: 13px;
+  color: #fff;
+  background-color: #222121;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .3s;
+  border: none;
+  outline: none;
+}
+
+section.reply #reply-to button:hover {
+  opacity: 0.9;
+}
+
+section.reply .right-info {
+  background-color: #222121;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+section.reply .right-info ul li {
+  display: inline-block;
+  border-bottom: 1px solid rgba(250,250,250,0.15);
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+section.reply .right-info ul li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+section.reply .right-info ul li h6 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+section.reply .right-info ul li span {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+
+/*footer*/
 
 .footer {
   text-align: center;
@@ -2211,6 +2287,10 @@ responsive
   }
 
   section.contact-us #contact {
+    margin-bottom: 30px;
+  }
+  
+  section.reply #reply-to {
     margin-bottom: 30px;
   }
   section.login #log-in {
